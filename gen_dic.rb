@@ -45,7 +45,7 @@ if __FILE__ == $0
   size = @str.length
   s = Increment.new(size, end_len, start_len)
 
-  while 1
+  while true
     ary = s.inc(0)
     break if ary.nil?
     ary.reverse_each { |x|
